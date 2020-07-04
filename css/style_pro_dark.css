@@ -281,9 +281,10 @@ body {
 }
 
 .project-image img {
-  width: 448px;
+  width: 256px;
   height: 256px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .projects p {
@@ -291,7 +292,7 @@ body {
 }
 
 .button {
-  margin: 0;
+  margin: 0 0 64px 0;
   padding: 8px 24px;
   display: inline-block;
   vertical-align: baseline;
